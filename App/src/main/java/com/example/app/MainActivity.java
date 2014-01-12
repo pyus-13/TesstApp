@@ -22,6 +22,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         getWindow().addFlags( WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD    |WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
 
+
         b = (Button) findViewById(R.id.button);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
